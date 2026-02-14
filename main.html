@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ColorFlipper</title>
+</head>
+<style>
+#purple {
+    background-color:purple ;
+}
+#pink{
+    background-color:pink;
+}
+#plum{
+    background-color: plum;
+}
+button{
+    margin:5px;
+    border-radius: 10px;
+    height: 70px;
+    width:200px;
+    padding: 20px 40px;
+    display: block;       
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h2{
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: xx-large;
+    font-weight: bolder;
+    margin-left: 0 auto;
+    margin-right: 0 auto;
+}
+
+</style>
+<body>
+    <h2>COLOR FLIPPER</h2>
+    <button id ="purple" onclick ="setColor('purple')"> Purple</button>
+    <button id ="pink"onclick ="setColor('Pink')">Pink</button>
+    <button id="plum" onclick="setColor('Plum')">Plum</button>
+    <button onclick ="randomColor()">Random</button>
+
+
+<script src ="index.js"></script>
+</body>
+</html>
